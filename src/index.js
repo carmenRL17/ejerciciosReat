@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { PaginaPrincipal } from './PaginaPrincipal';
+import { ListaSimple, TablaSimple } from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <PaginaPrincipal />
+    <ListaSimple/>
+    <TablaSimple/>
   </React.StrictMode>
 );
 
